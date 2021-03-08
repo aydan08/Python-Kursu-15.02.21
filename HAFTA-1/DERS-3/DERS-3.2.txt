@@ -1,0 +1,40 @@
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> sayi1=5
+>>> ad="aydan"
+>>> print(ad)
+aydan
+>>> print(sayi1)
+5
+>>> sayi2=12
+>>> ad2="mert"
+>>> sayi3
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    sayi3
+NameError: name 'sayi3' is not defined
+>>> sayi3=7
+>>> sayı1
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    sayı1
+NameError: name 'sayı1' is not defined
+>>> sayi1
+5
+>>> soy ad="GELİNCİK"
+SyntaxError: invalid syntax
+>>> soyad="GELİNCİK"
+>>> dogum_yeri="arhavi"
+>>> 4sayi=10
+SyntaxError: invalid syntax
+>>> sayi4=10
+>>> _4sayi=2
+>>> "Değişken adında Boşluk bulunmaz"
+'Değişken adında Boşluk bulunmaz'
+>>> "Sayı ile başlayamaz"
+'Sayı ile başlayamaz'
+>>> "Noktalama işareti kullanılamaz"
+'Noktalama işareti kullanılamaz'
+>>> "_ kullanılabilir"
+'_ kullanılabilir'
+>>> 

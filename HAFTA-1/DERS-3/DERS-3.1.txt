@@ -1,0 +1,156 @@
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> PRİNT("AYDAN")
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    PRİNT("AYDAN")
+NameError: name 'PRİNT' is not defined
+>>> print("aydan")
+aydan
+>>> 2
+2
+>>> 125
+125
+>>> a
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    a
+NameError: name 'a' is not defined
+>>> arhavi
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    arhavi
+NameError: name 'arhavi' is not defined
+>>> "arhavi"
+'arhavi'
+>>> 17/02/21
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+>>> "17/02/21"
+'17/02/21'
+>>> 3+5
+8
+>>> 3+"5"
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    3+"5"
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> "3"+"5"
+'35'
+>>> type()
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    type()
+TypeError: type() takes 1 or 3 arguments
+>>> type(45)
+<class 'int'>
+>>> type("45")
+<class 'str'>
+>>> type(45.5)
+<class 'float'>
+>>> type(print)
+<class 'builtin_function_or_method'>
+>>> print(0b0101)
+5
+>>> print(0o34)
+28
+>>> print(oxA3B5)
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    print(oxA3B5)
+NameError: name 'oxA3B5' is not defined
+>>> print(0xA3B5)
+41909
+>>> type(True)
+<class 'bool'>
+>>> type(False)
+<class 'bool'>
+>>> True
+True
+>>> False
+False
+>>> None
+>>> type(None)
+<class 'NoneType'>
+>>> "+ - * /"
+'+ - * /'
+>>> 99-56
+43
+>>> 5+9
+14
+>>> 10/2
+5.0
+>>> 10//2
+5
+>>> 10/3
+3.3333333333333335
+>>> 10//3
+3
+>>> 10//2.0
+5.0
+>>> 10//2
+5
+>>> 10.0//2
+5.0
+>>> 10.0/2
+5.0
+>>> "%","MOD ALMA"
+('%', 'MOD ALMA')
+>>> 10%2
+0
+>>> 10%3
+1
+>>> "**" "üs alma işlemi"
+'**üs alma işlemi'
+>>> 2**3
+8
+>>> 5**3
+125
+>>> print(2 * 3)
+6
+>>> print(2 * 3.)
+6.0
+>>> print(2. * 3)
+6.0
+>>> print(2. * 3.)
+6.0
+>>> 10/0
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    10/0
+ZeroDivisionError: division by zero
+>>> 10//0
+Traceback (most recent call last):
+  File "<pyshell#49>", line 1, in <module>
+    10//0
+ZeroDivisionError: integer division or modulo by zero
+>>> 56+699
+755
+>>> "a"+"b"
+'ab'
+>>> print(6 // 3)
+print(6 // 3.)
+print(6. // 3)
+print(6. // 3.)
+SyntaxError: multiple statements found while compiling a single statement
+>>> "c" + " " + "d"
+'c d'
+>>> type(" ")
+<class 'str'>
+>>> aydan
+Traceback (most recent call last):
+  File "<pyshell#55>", line 1, in <module>
+    aydan
+NameError: name 'aydan' is not defined
+>>> "aydan"
+'aydan'
+>>> 2+3*5
+17
+>>> (2+3)*5
+25
+>>> -5
+-5
+>>> +5
+5
+>>> 8-9
+-1
+>>> 
