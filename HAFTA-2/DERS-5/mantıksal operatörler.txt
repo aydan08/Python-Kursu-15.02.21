@@ -1,0 +1,50 @@
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> "-----Mantıksal İfadeler------"
+'-----Mantıksal İfadeler------'
+>>> "Eşittir"" " "atama operatörü" " " "veriyi ram e kaydeder"
+'Eşittir atama operatörü veriyi ram e kaydeder'
+>>> 5==6
+False
+>>> 5==5
+True
+>>> a==b
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    a==b
+NameError: name 'a' is not defined
+>>> "a"=="b"
+False
+>>> "a"=="a"
+True
+>>> "a"=="A"
+False
+>>> 5<6
+True
+>>> 5<5
+False
+>>> 5>6
+False
+>>> 5>3
+True
+>>> "c"=="C"
+False
+>>> 35<65
+True
+>>> 45>46
+False
+>>> "!=" " " "eşit değildir demek"
+'!= eşit değildir demek'
+>>> 5!=6
+True
+>>> "a" != "a"
+False
+>>> "a" != "A"
+True
+>>> 5<=6
+True
+>>> 10>=8
+True
+>>> 34>=34
+True
+>>> 
