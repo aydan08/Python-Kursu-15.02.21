@@ -1,0 +1,22 @@
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> listem = [30,40,21]
+>>> listem[1] = 43
+>>> print(listem)
+[30, 43, 21]
+>>> 
+>>> print(listem[-1])
+21
+>>> type(30)
+<class 'int'>
+>>> print(listem)
+[30, 43, 21]
+>>> "liste_Adı.appened(veri)"
+'liste_Adı.appened(veri)'
+>>> listem.append(78)
+>>> print(listem)
+[30, 43, 21, 78]
+>>> listem.insert(3,100)
+>>> print(listem)
+[30, 43, 21, 100, 78]
+>>> 

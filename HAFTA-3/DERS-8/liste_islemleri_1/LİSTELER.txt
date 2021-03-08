@@ -1,0 +1,39 @@
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> listem = []
+>>> type(listem)
+<class 'list'>
+>>> listem = [30,20,23,15,98]
+>>> type(listem)
+<class 'list'>
+>>> liste_string = ["dd","kk","ll"]
+>>> liste_karisik = [2,3,"dd","kzğ"]
+>>> type(liste_karisik)
+<class 'list'>
+>>> listem[0]
+30
+>>> "liste_adı[index_no]"
+'liste_adı[index_no]'
+>>> listem[2]
+23
+>>> listem[5]
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    listem[5]
+IndexError: list index out of range
+>>> type(listem[5])
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    type(listem[5])
+IndexError: list index out of range
+>>> type(listem[1])
+<class 'int'>
+>>> print(listem)
+[30, 20, 23, 15, 98]
+>>> len(listem)
+5
+>>> del listem[0]
+>>> print[listem]
+[20,23,15,98]
+>>> print(listem[0])
+20
