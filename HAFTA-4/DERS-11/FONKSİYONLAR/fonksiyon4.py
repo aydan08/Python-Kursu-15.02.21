@@ -1,4 +1,4 @@
-# print("tkeatiekai")
+# print("tkeatcvciekai")
 # veri = input()
 
 # veri döndürme - return

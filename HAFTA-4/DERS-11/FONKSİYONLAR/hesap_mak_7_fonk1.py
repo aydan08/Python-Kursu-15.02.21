@@ -40,6 +40,20 @@ def cikarma(b):
         fark = fark - b[index]
     print(f"Çıkarma Sonucu:  {fark}")
 
+def carpma(c):
+    carpma = 1
+    for sayi in c:
+        carpma = carpma * sayi
+    print(f"Çarpma Sonucu: {carpma}")
+
+def bolme(d):
+    bolum = d[0]
+        # 1, 2, 3, 4 .....
+    for index in range(1,len(d)):
+        bolum = bolum / d[index]
+    print(f"Bölmenin sonucu : {bolum}")
+
+
 def kullanici_secimi():
     k_secim = input()
     return k_secim
@@ -70,17 +84,11 @@ while True:
         cikarma(sayilar)
 
     elif secim == "3":
-        carpma = 1
-        for sayi in sayilar:
-            carpma = carpma * sayi
-        print(f"Çarpma Sonucu: {carpma}")  
+        carpma(sayilar)
+          
 
     elif secim == "4":
-        bolum = sayilar[0]
-        # 1, 2, 3, 4 .....
-        for index in range(1,len(sayilar)):
-            bolum = bolum / sayilar[index]
-        print(f"Bölmenin sonucu : {bolum}")
+        bolme(sayilar)
 
     else :
         print("Geçersiz Seçim Yaptınız!")
