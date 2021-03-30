@@ -1,4 +1,4 @@
-dosya = open("dosya.txt" , "a" , encoding='utf-8') #dosya.txt adında dosya oluşturdu
+dosya = open("HAFTA-7\\DERS-19\\dosya_islemleri\\dosya.txt" , "a" , encoding='utf-8') #dosya.txt adında dosya oluşturdu
 #"a"  olduğunda üstüne ekler, "w" old eskisini siler yenisini ekler
 dosya.write("Birinci Satır\n")
 dosya.write("İkinci Satır\n")
